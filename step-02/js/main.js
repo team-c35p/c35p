@@ -221,6 +221,7 @@ function callAction() {
   const servers = null;  // Allows for RTC server configuration.
 
   // Create peer connections and add behavior.
+  // RTCPeerConnection is an API for making WebRTC calls to stream video and audio, and exchange data.
   localPeerConnection = new RTCPeerConnection(servers);
   trace('Created local peer connection object localPeerConnection.');
 
